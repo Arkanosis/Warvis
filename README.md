@@ -8,18 +8,20 @@
 
 ```console
 sudo pacman -S cython
-virtualenv nlp
+python -m venv nlp
 source nlp/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+python -m spacy download fr
 ```
 
 ### On Debian / Ubuntu
 
 ```console
 sudo apt install cython
-virtualenv -p python3 nlp
+python3 -m venv nlp
 source nlp/bin/activate
 pip3 install -r requirements.txt
+python3 -m spacy download fr
 ```
 
 ## Usage
