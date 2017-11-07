@@ -10,7 +10,7 @@
 sudo pacman -S cython
 python -m venv nlp
 source nlp/bin/activate
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 python -m spacy download fr
 ```
 
@@ -20,8 +20,8 @@ python -m spacy download fr
 sudo apt install cython
 python3 -m venv nlp
 source nlp/bin/activate
-pip3 install -r requirements.txt
-python3 -m spacy download fr
+pip install -r requirements.txt
+python -m spacy download fr
 ```
 
 ## Usage
@@ -37,6 +37,14 @@ Arguments:
 Options:
     -h, --help           Show this screen.
     --version            Show version.
+```
+
+## Recommended setup for hacking
+
+```console
+pip install pudb
+pip install ptpython
+python -m pudb warvis
 ```
 
 ## Contributing and reporting bugs
