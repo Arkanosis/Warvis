@@ -1,4 +1,4 @@
-# Warvis [![License](http://img.shields.io/badge/license-ISC-blue.svg)](/LICENSE)
+# Warvis [![Version](https://img.shields.io/badge/version-v0.1.0--dev-orange.svg)](https://semver.org/spec/v2.0.0.html) [![License](http://img.shields.io/badge/license-ISC-blue.svg)](/LICENSE)
 
 **Warvis** is your personal steward, answering your questions using Wikidata.
 
